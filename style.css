@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.click{
+    color: black;
+    background-color: lightblue;
+    width: 100px;
+    height: 10vh;
+    align-items: center; 
+    margin-left: 400px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.clickme{
+    color: black;
+    background-color: lightblue;
+    width: 100px;
+    height: 10vh;
+    align-items: center; 
+    margin-left: 400px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+button :hover{
+    transition: 0.3s;
+    color: gray;
+    text-decoration: gray;
+}
+
+.wrapper{
+    width: 600px;
+    height: 400px;
+    background-color: lightpink;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 500px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 350px;
+    
+}
+.question{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 30px;
+}
+.yes{
+    right: 50%;
+}
+
+
